@@ -4,16 +4,21 @@
   "reason": {
     "react-jsx": 3
   },
-  "sources": {
-    "dir" : "src",
-    "subdirs" : true
-  },
+  "sources": [
+    {
+      "dir" : "packages/foo/src",
+      "subdirs" : true
+    },
+    {
+      "dir" : "packages/bar/src",
+      "subdirs" : true
+    }
+  ],
   "package-specs": [{
     "module": "commonjs",
     "in-source": true
   }],
   "suffix": ".bs.js",
-  "namespace": true,
   "bs-dependencies": [
     "reason-react"
   ],
