@@ -1,9 +1,4 @@
 importers:
-  .:
-    dependencies:
-      reason-react: 0.7.0
-    specifiers:
-      reason-react: ^0.7.0
   packages/bar:
     dependencies:
       react: 16.8.6
